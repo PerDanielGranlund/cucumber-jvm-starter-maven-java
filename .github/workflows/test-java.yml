@@ -26,5 +26,5 @@ jobs:
           distribution: 'temurin'
           java-version: ${{ matrix.version }}
           cache: 'maven'
-      - name: Install dependencies
+      - name: Maven Test
         run: ./mvnw test
