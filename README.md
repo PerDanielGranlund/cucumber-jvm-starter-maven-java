@@ -1,4 +1,4 @@
-# Cucumber JVM - Starter: Java with Maven
+# Cucumber-JVM Starter: Java with Maven
 
 This is the simplest possible setup for Cucumber-JVM using Java with Maven.
 There is nothing fancy like a webapp or browser testing. All this does is to
@@ -11,15 +11,10 @@ included.
 
 Git:
 
-    git clone https://github.com/cucumber/cucumber-java-skeleton.git
+    git clone https://github.com/cucumber/cucumber-jvm-starter-maven-java.git
     cd cucumber-java-skeleton
 
-Subversion:
-
-    svn checkout https://github.com/cucumber/cucumber-java-skeleton/trunk cucumber-java-skeleton
-    cd cucumber-java-skeleton
-
-Or [download a zip](https://github.com/cucumber/cucumber-java-skeleton/archive/main.zip) file.
+Or [download a zip](https://github.com/cucumber/cucumber-jvm-starter-maven-java/archive/main.zip) file.
 
 ## Run the tests
 
