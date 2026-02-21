@@ -1,6 +1,7 @@
 package io.cucumber.skeleton;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.opentest4j.TestAbortedException;
 
@@ -16,7 +17,18 @@ public class StepDefinitions {
     @When("I wait {int} hour")
     public void i_wait_hour(Integer int1) {
         // Write code here that turns the phrase above into concrete actions
-        throw new TestAbortedException("TODO");
+        System.out.println(int1 + " hour later...");
+//        while (cukes > 0) {
+//            belly.eat();
+//        }
+        //throw new TestAbortedException("TODO");
+    }
+
+    @Then("my belly should growl")
+    public void my_belly_should_growl() {
+        System.out.println("GRRRRR....");
+        // Write code here that turns the phrase above into concrete actions
+        // throw new io.cucumber.java.PendingException();
     }
 
 }
